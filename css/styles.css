@@ -735,7 +735,7 @@ img {
   transition: transform var(--anim-fast), opacity var(--anim-fast);
 }
 
-.modal-label {
+.modal__label {
   display: block;
   margin-bottom: 12px;
   font-size: 20px;
@@ -751,7 +751,7 @@ img {
   transform: translateX(-50%) translateY(-70%); 
 }
 
-.modal-btn {
+.modal__close-btn {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -772,12 +772,12 @@ img {
   cursor: pointer;
 }
 
-.modal-icon {
+.modal__close-icon {
   fill: var(--black-logo);
 }
 
-.modal-icon:hover,
-.modal-icon:focus {
+.modal__close-icon:hover,
+.modal__close-icon:focus {
   fill: var(--accent-color);
 }
 
